@@ -9,7 +9,7 @@ public class Printer {
         {
             return "Even";
         }
-        else if(n%2==0 && n%11==0)
+        else if(n%2==0 && n%11==0 && n%13!=0)
         {
             return "EvenPrimeEleven";
         }
@@ -17,7 +17,7 @@ public class Printer {
         {
             return "PrimeEleven";
         }
-        else if(n%13==0 )
+        else if(n%13==0 && n%11!=0 && n%2!=0 )
         {
             return "LuckyThirteen";
         }

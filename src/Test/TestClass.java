@@ -17,4 +17,10 @@ public class TestClass {
         Printer printer = new Printer(1);
         assertEquals("EvenPrimeEleven",printer.printt(22));
     }
+    @Test
+    public void test3()
+    {
+        Printer printer = new Printer(1);
+        assertEquals("EvenPrimeLucky",printer.printt(286));
+    }
 }
